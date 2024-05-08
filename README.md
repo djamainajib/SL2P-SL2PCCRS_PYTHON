@@ -10,9 +10,9 @@ SL2P-SL2PCCRS_PYTHON is designed to estimate vegetation biophysical variables (T
 
 Required inputs
 ---------------
---	The input data collection name (Table 1).  
---  The needed vegetation variable (Table 2).  
--- Input data: pandas DataFrame with with the appropriate input bands (examples are provided in [testdata](https://github.com/djamainajib/SL2P-SL2PCCRS_PYTHON/tree/main/testdata)).  
+1.  The input data collection name (Table 1).
+2.  The needed vegetation variable (Table 2).  
+3.  Input data: pandas DataFrame with with the appropriate input bands (examples are provided in [testdata](https://github.com/djamainajib/SL2P-SL2PCCRS_PYTHON/tree/main/testdata)).  
 
 Input bands depends on:  
 --  The input collection (Table 1).  
@@ -37,11 +37,7 @@ Please see example provided in [test_package](https://github.com/djamainajib/SL2
 
 Outputs
 -------
-SL2P_PYTHON_package is designed to estimate five vegetation variables (Table 2). 
-
-Output is a pandas DataFrame with 5 columns (Table 3). 
-
-
+SL2P-SL2PCCRS_PYTHON output is a pandas DataFrame with 5 columns (same length as the input data) providing information detailed in Table 3 about the specified vegetation variable (Table 2). 
 
 <p align="center"> Table 2: Vegetation variables supported by SL2P and SL2PCCRS </p>
 
