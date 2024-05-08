@@ -12,7 +12,7 @@ Required inputs
 ---------------
 --	The input data collection name (Table 1).  
 --  The needed vegetation variable (Table 2).  
--- Input data: pandas DataFrame with with the appropriate input bands: examples are provided in [testdata](https://github.com/djamainajib/SL2P-SL2PCCRS_PYTHON/tree/main/testdata).  
+-- Input data: pandas DataFrame with with the appropriate input bands (examples are provided in [testdata](https://github.com/djamainajib/SL2P-SL2PCCRS_PYTHON/tree/main/testdata)).  
 
 Input bands depends on:  
 --  The input collection (Table 1).  
