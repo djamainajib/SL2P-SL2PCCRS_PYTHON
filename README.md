@@ -6,7 +6,7 @@ SL2P-SL2PCCRS_PYTHON provides a python implementation of:
     
 It corresponds to algorithms implemented in the [LEAf-Toolbox](https://github.com/rfernand387/LEAF-Toolbox)  
 
-SL2P-SL2PCCRS_PYTHON is designed to estimate vegetation biophysical variables (Table 2) from multi-spectral data from different sensors (Table 1). 
+SL2P-SL2PCCRS_PYTHON is designed to estimate vegetation biophysical variables (Table 2) from multispectral data from different sensors (Table 1). 
 
 Required inputs
 ---------------
