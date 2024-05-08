@@ -1,18 +1,18 @@
 # Welcome to SL2P_PYTHON_package
 
-SL2P-PYTHON_package provides a python implementation of:  
+SL2P-SL2PCCRS_PYTHON provides a python implementation of:  
 1.  The Simplified Level 2 Product Prototype Processor (SL2P) described in [Weiss and Baret (2016)](https://step.esa.int/docs/extra/ATBD_S2ToolBox_L2B_V1.1.pdf). and
 2.  The Canada Centre for Remote Sensing version of SL2P (SL2PCCRS) described in [Fernandes et al. (2024)](https://doi.org/10.1016/j.rse.2024.114060)   
     
 It corresponds to algorithms implemented in the [LEAf-Toolbox](https://github.com/rfernand387/LEAF-Toolbox)  
 
-SL2P_PYTHON_package is designed to estimate vegetation biophysical variables (Table 1) from multi-spectral data from different sensors (Table 1). 
+SL2P-SL2PCCRS_PYTHON is designed to estimate vegetation biophysical variables (Table 2) from multi-spectral data from different sensors (Table 1). 
 
 Required inputs
 ---------------
 --	The input data collection name (Table 1).  
 --  The needed vegetation variable (Table 2).  
--- CSV file containing the needed input bands: examples are provided in [testdata](https://github.com/djamainajib/SL2P_PYTHON_package/tree/main/testdata).  
+-- Input data: pandas DataFrame with with the appropriate input bands: examples are provided in [testdata](https://github.com/djamainajib/SL2P-SL2PCCRS_PYTHON/tree/main/testdata).  
 
 Input bands depends on:  
 --  The input collection (Table 1).  
@@ -32,7 +32,7 @@ Processing
 ----------
 SL2P or SL2PCCRS is used to estimate the needed vegetation variable (Table 3) from the input data. 
 
-Please see example provided in [test_package](https://github.com/djamainajib/SL2P_PYTHON_package/blob/main/test_package.ipynb)
+Please see example provided in [test_package](https://github.com/djamainajib/SL2P-SL2PCCRS_PYTHON/blob/main/test_package.ipynb)
 
 
 Outputs
@@ -78,12 +78,12 @@ Dependencies:
 
 How to contribute?
 ------------
-See [CONTRIBUTING.md](https://github.com/djamainajib/SL2P_python/blob/main/CONTRIBUTING.md)
+See [CONTRIBUTING.md](https://github.com/djamainajib/SL2P-SL2PCCRS_PYTHON/blob/main/CONTRIBUTING.md)
 
 
 License:
 ------------
-Unless otherwise noted, the source code of this project is covered under Crown Copyright, Government of Canada, and is distributed under the [MIT License](https://github.com/djamainajib/SL2P_python/blob/main/License).
+Unless otherwise noted, the source code of this project is covered under Crown Copyright, Government of Canada, and is distributed under the [MIT License](https://github.com/djamainajib/SL2P-SL2PCCRS_PYTHON/blob/main/License).
 
 The Canada wordmark and related graphics associated with this distribution are protected under trademark law and copyright law. No permission is granted to use them outside the parameters of the Government of Canada's corporate identity program. For more information, see [Federal identity requirements](https://www.canada.ca/en/treasury-board-secretariat/topics/government-communications/federal-identity-requirements.html).
 
