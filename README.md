@@ -1,7 +1,7 @@
 # Welcome to SL2P_PYTHON_package
 
 SL2P-SL2PCCRS_PYTHON provides a python implementation of:  
-1.  The Simplified Level 2 Product Prototype Processor (SL2P) described in [Weiss and Baret (2016)](https://step.esa.int/docs/extra/ATBD_S2ToolBox_L2B_V1.1.pdf). and
+1.  The Simplified Level 2 Product Prototype Processor (SL2P) described in [Weiss and Baret (2016)](https://step.esa.int/docs/extra/ATBD_S2ToolBox_L2B_V1.1.pdf).
 2.  The Canada Centre for Remote Sensing version of SL2P (SL2PCCRS) described in [Fernandes et al. (2024)](https://doi.org/10.1016/j.rse.2024.114060)   
     
 It corresponds to algorithms implemented in the [LEAf-Toolbox](https://github.com/rfernand387/LEAF-Toolbox)  
