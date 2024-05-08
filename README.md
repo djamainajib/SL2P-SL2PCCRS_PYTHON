@@ -1,4 +1,4 @@
-# Welcome to SL2P_PYTHON_package
+# Welcome to SL2P-SL2PCCRS_PYTHON 
 
 SL2P-SL2PCCRS_PYTHON provides a python implementation of:  
 1.  The Simplified Level 2 Product Prototype Processor (SL2P) described in [Weiss and Baret (2016)](https://step.esa.int/docs/extra/ATBD_S2ToolBox_L2B_V1.1.pdf).
